@@ -6,7 +6,17 @@ dalam penggunaan apache menggunakan xampp utk menyambungkan pada phpmyadmin juga
 cara menjalankan
 1. jalankan xampp dan start apache + mysql
 2. setting database pada phpmyadmin dengan nama rumahsakit
-3. buat table dalam database (rumahsakit) bernama buku_tamu dengan atribut (id, name, email, pesan, waktu)
+3. buat table dalam database (rumahsakit) bernama buku_tamu 
+
+CREATE TABLE buku_tamu (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    pesan TEXT NOT NULL,
+    waktu TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
 4. masukkan file berikut dalam C:\xampp\htdocs
 5. run website menggunakan browser apapun dnegan link:
    http://localhost/buku_tamu_rumahsakit/index.html
