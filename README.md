@@ -1,4 +1,8 @@
 # buku-tamu-rumah-sakit
+
+SOAL:
+Berikan saya sebuah sistem pendaftaran tamu dengan design simple agak dapat menjangkau semua kalangan yang dapat terdata dan tertampil per datanya seperti bentuk laporan
+
 program simple yang mengadopsi html, css, php, dan mysql dan beberapa elemen kecil javascript dalam bootstrap
 saya menggunakan bootsatrap 5 dan mendesign nya agar dapat user friendly dan flexible di multidevice
 dalam penggunaan apache menggunakan xampp utk menyambungkan pada phpmyadmin juga
